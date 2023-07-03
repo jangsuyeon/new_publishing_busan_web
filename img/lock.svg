@@ -1,0 +1,7 @@
+<svg id="icon_rock" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="사각형_3595" data-name="사각형 3595" width="24" height="24" fill="none"/>
+  <g id="lock-on" transform="translate(4 4)">
+    <rect id="lock-on_Background_" data-name="lock-on (Background)" width="16" height="16" fill="none"/>
+    <path id="lock-on-2" data-name="lock-on" d="M10.5,12.509H.5a.5.5,0,0,1-.5-.5v-7a.5.5,0,0,1,.5-.5H2V3.5a3.5,3.5,0,1,1,7,0V4.509h1.5a.5.5,0,0,1,.5.5v7A.5.5,0,0,1,10.5,12.509Zm-9.5-7v6h9v-6ZM5.5,1A2.5,2.5,0,0,0,3,3.5V4.509H8V3.5A2.5,2.5,0,0,0,5.5,1Zm2,8.51h-4v-1h4v1Z" transform="translate(2.5 1.491)" fill="#222"/>
+  </g>
+</svg>

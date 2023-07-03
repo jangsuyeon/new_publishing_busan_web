@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="122.987" height="122.987" viewBox="0 0 122.987 122.987">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_7775" data-name="사각형 7775" width="122.987" height="122.987" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_14958" data-name="그룹 14958" transform="translate(0 0)">
+    <g id="그룹_14957" data-name="그룹 14957" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="패스_25047" data-name="패스 25047" d="M119.205,61.084A58.122,58.122,0,1,1,61.084,2.962a58.12,58.12,0,0,1,58.122,58.122" transform="translate(3.782 3.783)" fill="#9b9b9b"/>
+      <path id="패스_25048" data-name="패스 25048" d="M116.993,58.872A58.122,58.122,0,1,1,58.872.75a58.12,58.12,0,0,1,58.122,58.122" transform="translate(0.958 0.958)" fill="#939393"/>
+      <circle id="타원_68" data-name="타원 68" cx="58.122" cy="58.122" r="58.122" transform="translate(1.707 1.708)" fill="none" stroke="#2f1600" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="패스_25049" data-name="패스 25049" d="M98.015,52.053A45.963,45.963,0,1,1,52.053,6.09,45.964,45.964,0,0,1,98.015,52.053" transform="translate(7.777 7.777)" fill="#fff"/>
+      <circle id="타원_69" data-name="타원 69" cx="45.963" cy="45.963" r="45.963" transform="translate(13.867 13.867)" fill="none" stroke="#2f1600" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="패스_25050" data-name="패스 25050" d="M31.88,28.277c-.066,8.964-1.712,16.219-3.675,16.2s-3.5-7.291-3.436-16.255,1.712-16.219,3.675-16.205,3.5,7.293,3.436,16.257" transform="translate(31.626 15.35)" fill="#ffa2a6"/>
+      <path id="패스_25051" data-name="패스 25051" d="M31.88,28.277c-.066,8.964-1.712,16.219-3.675,16.2s-3.5-7.291-3.436-16.255,1.712-16.219,3.675-16.205S31.946,19.313,31.88,28.277Z" transform="translate(31.626 15.35)" fill="none" stroke="#2f1600" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="패스_25052" data-name="패스 25052" d="M24.646,38.153c.089-6.585,1.751-11.9,3.716-11.877s3.484,5.387,3.395,11.972-1.751,11.9-3.716,11.874-3.484-5.385-3.395-11.97" transform="translate(31.467 33.554)" fill="#ffa2a6"/>
+      <path id="패스_25053" data-name="패스 25053" d="M24.646,38.153c.089-6.585,1.751-11.9,3.716-11.877s3.484,5.387,3.395,11.972-1.751,11.9-3.716,11.874S24.557,44.738,24.646,38.153Z" transform="translate(31.467 33.554)" fill="none" stroke="#2f1600" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="패스_25054" data-name="패스 25054" d="M31.825,28.271a3.555,3.555,0,1,1-3.557-3.557,3.557,3.557,0,0,1,3.557,3.557" transform="translate(31.559 31.559)" fill="#2f1600"/>
+      <path id="패스_25055" data-name="패스 25055" d="M31.825,28.271a3.555,3.555,0,1,1-3.557-3.557A3.557,3.557,0,0,1,31.825,28.271Z" transform="translate(31.559 31.559)" fill="none" stroke="#2f1600" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="선_481" data-name="선 481" x2="5.062" y2="2.921" transform="translate(20.024 36.849)" fill="#d2f2e3"/>
+      <line id="선_482" data-name="선 482" x2="5.062" y2="2.921" transform="translate(20.024 36.849)" fill="none" stroke="#2f1600" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="선_483" data-name="선 483" y1="2.921" x2="5.062" transform="translate(20.024 79.89)" fill="#d2f2e3"/>
+      <line id="선_484" data-name="선 484" y1="2.921" x2="5.062" transform="translate(20.024 79.89)" fill="none" stroke="#2f1600" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="선_485" data-name="선 485" y1="5.062" x2="2.921" transform="translate(36.848 94.573)" fill="#d2f2e3"/>
+      <line id="선_486" data-name="선 486" y1="5.062" x2="2.921" transform="translate(36.848 94.573)" fill="none" stroke="#2f1600" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="선_487" data-name="선 487" y1="5.845" transform="translate(59.829 99.948)" fill="#d2f2e3"/>
+      <line id="선_488" data-name="선 488" y1="5.845" transform="translate(59.829 99.948)" fill="none" stroke="#2f1600" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="선_489" data-name="선 489" x1="2.921" y1="5.062" transform="translate(79.889 94.573)" fill="#d2f2e3"/>
+      <line id="선_490" data-name="선 490" x1="2.921" y1="5.062" transform="translate(79.889 94.573)" fill="none" stroke="#2f1600" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="선_491" data-name="선 491" x1="5.062" y1="2.921" transform="translate(94.572 79.89)" fill="#d2f2e3"/>
+      <line id="선_492" data-name="선 492" x1="5.062" y1="2.921" transform="translate(94.572 79.89)" fill="none" stroke="#2f1600" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="선_493" data-name="선 493" x1="5.845" transform="translate(99.947 59.83)" fill="#d2f2e3"/>
+      <line id="선_494" data-name="선 494" x1="5.845" transform="translate(99.947 59.83)" fill="none" stroke="#2f1600" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="선_495" data-name="선 495" x1="5.062" y2="2.921" transform="translate(94.572 36.849)" fill="#d2f2e3"/>
+      <line id="선_496" data-name="선 496" x1="5.062" y2="2.921" transform="translate(94.572 36.849)" fill="none" stroke="#2f1600" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

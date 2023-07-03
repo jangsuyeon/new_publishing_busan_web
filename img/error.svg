@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="106" height="90" viewBox="0 0 106 90">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0075bf"/>
+      <stop offset="1" stop-color="#46cbd8"/>
+    </linearGradient>
+  </defs>
+  <path id="다각형_1" data-name="다각형 1" d="M44.383,14.632a10,10,0,0,1,17.234,0L97.123,74.926A10,10,0,0,1,88.506,90H17.494A10,10,0,0,1,8.877,74.926Z" fill="url(#linear-gradient)"/>
+</svg>

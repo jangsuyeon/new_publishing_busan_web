@@ -1,0 +1,120 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="./js/fullcalendar-5.11.0/lib/main.css" rel="stylesheet" />
+    <link href="./css/calendar.css" rel="stylesheet" />
+    <script src="./js/fullcalendar-5.11.0/lib/main.js"></script>
+    <script>
+      const labels = ["일", "월", "화", "수", "목", "금", "토"];
+      const events = [
+        {
+          //event는 객체 배열로
+          event: [
+            {
+              name: "akasata",
+              start_time: "10:30",
+              end_time: "11:00",
+              status: false,
+            },
+            {
+              name: "hamayara",
+              start_time: "10:30",
+              end_time: "11:00",
+              status: true,
+            },
+          ],
+          //시작 날짜와 끝 날짜는 같게
+          start: "2022-06-01",
+          end: "2022-06-01",
+          //id는 events 객체 배열의 index로
+          id: 0,
+        },
+        {
+          event: [
+            {
+              name: "jajajaja",
+              start_time: "10:30",
+              end_time: "11:00",
+              status: true,
+            },
+            {
+              name: "amawawaw",
+              start_time: "10:30",
+              end_time: "11:00",
+              status: true,
+            },
+          ],
+          start: "2022-06-08",
+          end: "2022-06-08",
+          id: 1,
+        },
+        {
+          event: [
+            {
+              name: "akawa",
+              start_time: "10:30",
+              end_time: "11:00",
+              status: true,
+            },
+            {
+              name: "ekekeks",
+              start_time: "10:30",
+              end_time: "11:00",
+              status: true,
+            },
+          ],
+          start: "2022-06-15",
+          end: "2022-06-15",
+          id: 2,
+        },
+      ];
+
+      document.addEventListener("DOMContentLoaded", function () {
+        var calendarEl = document.getElementById("calendar");
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: "dayGridMonth",
+          events,
+          contentHeight: 265,
+          eventClick: (info) => renderEvent(info.event.id),
+          titleFormat: function (date) {
+            // title 설정
+            return date.date.year + "년 " + (date.date.month + 1) + "월";
+          },
+          dayHeaderContent: (args) => {
+            return labels[args.dow];
+          },
+        });
+        calendar.render();
+      });
+
+      const renderEvent = (id) => {
+        const schedule_list = document.getElementById("schedule-list");
+        schedule_list.innerHTML = mappedEvent(events[id]);
+      };
+
+      const mappedEvent = (event) => {
+        return `
+            <div>
+              <div>
+                ${event.start}
+              </div>
+              ${event.event.map((ev) => {
+                return `<div>
+                  <div>${ev.name}</div>
+                  <div>${ev.start_time}</div>
+                  <div>${ev.end_time}</div>
+                  <div>${ev.status}</div>
+                </div>`;
+              })}
+            </div>`;
+      };
+    </script>
+  </head>
+  <body>
+    <div class="schedule_wrapper">
+      <div id="calendar"></div>
+      <div id="schedule-list"></div>
+    </div>
+  </body>
+  <script></script>
+</html>

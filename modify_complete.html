@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>부산광역시 소상공인종합지원센터</title>
+  <link href="css/base.css" rel="stylesheet" />
+  <link href="css/common.css" rel="stylesheet" />
+  <link href="css/sub.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+
+  <header style="position: relative;" class="hide-1180">
+
+    <nav id="gnb">
+      <div class="cen">
+        <a href="#">로그인</a>
+        <a href="#">회원가입</a>
+      </div>
+    </nav>
+    
+    <div id="logo_box" class="cen">
+      <!-- <div id="left_logo"></div>
+      <div id="center_logo">
+        <h1>
+          <img src="img/logo.svg" alt="로고" />
+        </h1>
+      </div>
+      <div id="space"></div> -->
+      <h1>
+        <a href="index.html">
+          <img src="img/logo.svg" alt="로고" />
+          <img src="img/logo_text.svg" alt="로고" />
+        </a>
+      </h1>
+    </div>
+
+    <nav id="lnb">
+      <div class="cen">
+        <ul class="text-center">
+          <li class="main">
+            <a href="#">사업소개</a>
+            <div class="sub">
+              <div class="sub_panel">
+                <ul class="sub_list">
+                  <li>
+                    <strong class="sub_list_title">경영지원</strong>
+                    <ul>
+                      <li><a href="#">소상공인 행복복지지원</a></li>
+                      <li><a href="#">소상공인 법률서비스</a></li>
+                      <li><a href="#">영세소상공인 고용산재 보험료 지원</a></li>
+                      <li><a href="#">사업정리 도우미</a></li>
+                      <li><a href="#">경영전략 컨설팅</a></li>
+                      <li><a href="#">소상공인 통합교육</a></li>
+                      <li><a href="#">장기안심상가 홍보</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong class="sub_list_title">유망소상공인육성</strong>
+                    <ul>
+                      <li><a href="#">유망업종특화마케팅 지원</a></li>
+                      <li><a href="#">브랜드 및 지식서비스 품질 개선</a></li>
+                      <li><a href="#">스타소상공인 발굴 빛 육성</a></li>
+                      <li><a href="#">찾아가는 소상공인 해결사</a></li>
+                      <li><a href="#">신사업창업사관학교</a></li>
+                      <li><a href="#">골목상권 공동체 육성</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong class="sub_list_title">매출확대 지원</strong>
+                    <ul>
+                      <li><a href="#">공공배달앱 동백통 운영</a></li>
+                      <li><a href="#">제로페이 지원사업</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong class="sub_list_title">온라인 비즈니스 지원</strong>
+                    <ul>
+                      <li><a href="#">디지털 커머스 지원(소담스퀘어)</a></li>
+                      <li><a href="#">온라인 마케팅</a></li>
+                      <li><a href="#">판로확대</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong class="sub_list_title">기타 지원사원</strong>
+                    <ul>
+                      <li><a href="#">수제맥주 마스터지 챌린지</a></li>
+                      <li><a href="#">귀금속 소상공인 특화센터 운영</a></li>
+                    </ul>
+                  </li>
+                  <!-- <div class="float-left">
+                    <li>경영지원</li>
+                    <li><a href="#">소상공인 행복복지지원</a></li>
+                    <li><a href="#">소상공인 법률서비스</a></li>
+                    <li><a href="#">영세소상공인 고용산재 보험료 지원</a></li>
+                    <li><a href="#">사업정리 도우미</a></li>
+                    <li><a href="#">경영전략 컨설팅</a></li>
+                    <li><a href="#">소상공인 통합교육</a></li>
+                    <li><a href="#">장기안심상가 홍보</a></li>
+                  </div>
+                  <div class="float-left">
+                    <li>유망소상공인육성</li>
+                    <li><a href="#">유망업종특화마케팅 지원</a></li>
+                    <li><a href="#">브랜드 및 지식서비스 품질 개선</a></li>
+                    <li><a href="#">스타소상공인 발굴 빛 육성</a></li>
+                    <li><a href="#">찾아가는 소상공인 해결사</a></li>
+                    <li><a href="#">신사업창업사관학교</a></li>
+                    <li><a href="#">골목상권 공동체 육성</a></li>
+                  </div>
+                  <div class="float-left">
+                    <li>매출확대 지원</li>
+                    <li><a href="#">공공배달앱 동백통 운영</a></li>
+                    <li><a href="#">제로페이 지원사업</a></li>
+                  </div>
+                  <div class="float-left">
+                    <li>온라인 비즈니스 지원</li>
+                    <li><a href="#">디지털 커머스 지원(소담스퀘어)</a></li>
+                    <li><a href="#">온라인 마케팅</a></li>
+                    <li><a href="#">판로확대</a></li>
+                  </div>
+                  <div class="float-left">
+                    <li>기타 지원사원</li>
+                    <li><a href="#">수제맥주 마스터지 챌린지</a></li>
+                    <li><a href="#">귀금속 소상공인 특화센터 운영</a></li>
+                  </div>  -->
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="main">
+            <a href="#">사업신청</a>
+            <div class="sub">
+              <ul>
+                
+              </ul>
+            </div>
+          </li>
+          <li class="main">
+            <a href="#">법률상담</a>
+            <div class="sub">
+              <ul>
+                
+              </ul>
+            </div>
+          </li>
+          <li class="main">
+            <a href="#">알림마당</a>
+            <div class="sub">
+              <ul>
+                
+              </ul>
+            </div>
+          </li>
+          <li class="main">
+            <a href="#">소통마당</a>
+            <div class="sub">
+              <ul>
+                
+              </ul>
+            </div>
+          </li>
+          <li class="main">
+            <a href="#">센터소개</a>
+            <div class="sub">
+              <ul>
+                
+              </ul>
+            </div>
+          </li>
+<!--          <div class="float-right">-->
+<!--            <div class="float-left" style="padding: 8px 0;">-->
+<!--              <input class="search-input" type="text" placeholder="검색어를 입력하세요">-->
+<!--              <div style="position:relative;">-->
+<!--                <button class="searchbtn"></button>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--            <div class="float-left" style="padding: 8px 0;">-->
+<!--              <a href="#">-->
+<!--                <img src="img/menu.svg" alt="메뉴" />-->
+<!--              </a>-->
+<!--            </div>-->
+<!--          </div>-->
+        </ul>
+      </div>
+    </nav>
+    <div id="menuback"></div>
+  </header>
+
+  <section>
+    <div class="cen">
+      <div class="breadcrumb">
+        <p>
+          home
+          <img src="img/breadcrumb.svg" alt="화살표" /> 
+          마이페이지
+          <img src="img/breadcrumb.svg" alt="화살표" /> 
+          <a href="">신청서조회</a>
+          <img src="img/breadcrumb.svg" alt="화살표" /> 
+          <span>신청서정보</span>
+        </p>
+      </div>
+      <div class="of-auto">
+        <div class="w-18" style="margin-right: 40px;">
+          <h2>마이페이지</h2>
+          <nav id="left-menu">
+            <ul id="left-lnb">
+              <li class="left-main">
+                <a href="#">회원정보</a>
+                <!-- <ul class="left-sub">
+                  <li>
+                    <a href="#">회원정보</a>
+                  </li>
+                </ul> -->
+              </li>
+              <li class="left-main">
+                <a href="#">상담예약조회</a>
+                <!-- <ul class="left-sub">
+                  <li>
+                    <a href="#">상담예약조회</a>
+                  </li>
+                </ul> -->
+              </li>
+              <li class="left-main-show">
+                <a href="#">신청서조회</a>
+                <ul class="left-sub-show">
+                  <li>
+                    <a href="#" class="on">신청서조회</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="left-main">
+                <a href="#">수료증출력</a>
+                <!-- <ul class="left-sub">
+                  <li>
+                    <a href="#">수료증출력</a>
+                  </li>
+                </ul> -->
+              </li>
+              <li class="left-main">
+                <a href="#">회원탈퇴</a>
+                <!-- <ul class="left-sub">
+                  <li>
+                    <a href="#">회원탈퇴</a>
+                  </li>
+                </ul> -->
+              </li>
+              <li class="left-main">
+                <a href="#">로그아웃</a>
+                <!-- <ul class="left-sub">
+                  <li>
+                    <a href="#">로그아웃</a>
+                  </li>
+                </ul> -->
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="w-78">
+          <h2>신청서 수정</h2>
+          <div class="comment">
+            <p>※ 신청서는 반드시 '제출완료' 가 되셔야 심사가 진행됩니다.</p>
+            <p>※ 제출된 신청서를 수정하는 경우, 마지막 단계까지 모두 진행하시고, '제출완료'문구가 확인되셔야 합니다.</p>
+          </div>
+          <div class="underline-h3-box">
+            <h3 class="underline-h3">신청서 정보</h3>
+          </div>
+          <!-- <img src="img/line.svg" alt="빗금" style="margin:  20px 0;" /> -->
+          <div class="line-img"></div>
+          <div class="table-box">
+          <table class="complete-table" style="border-top: 2px solid #1A72C9;">
+            <caption>사업신청정보</caption>
+            <colgroup>
+              <col width="110px">
+              <col width="">
+              <col width="110px">
+              <col width="">
+            </colgroup>
+            <tr>
+              <th class="text-center-title">신청사업</th>
+              <td>[2022년 소상공인 종합건강검진 지원사업]</td>
+              <th></th>
+              <td></td>
+            </tr>
+            <tr>
+              <th class="text-center-title">성명</th>
+              <td>백민호</td>
+              <th class="text-center-title">생년월일</th>
+              <td>19890621</td>
+            </tr>
+            <tr>
+              <th class="text-center-title">이메일</th>
+              <td>airsound1@naver.com</td>
+              <th class="text-center-title">휴대폰</th>
+              <td>010-0000-0000</td>
+            </tr>
+            <tr>
+              <th class="text-center-title">거주지주소</th>
+              <td colspan="3">대전광역시 유성구 관평동 70</td>
+            </tr>
+            <tr>
+              <th class="text-center-title">사업단계</th>
+              <td colspan="3">기존사업자</td>
+            </tr>
+            <tr>
+              <th class="text-center-title">업체명</th>
+              <td>(주)에어사운드</td>
+              <th class="text-center-title">사업개시일</th>
+              <td>2014.04.24</td>
+            </tr>
+            <tr>
+              <th class="text-center-title">사업자등록번호</th>
+              <td>318-81-0****</td>
+              <th class="text-center-title">주요제품</th>
+              <td>소프트웨어 / 마이핀</td>
+            </tr>
+            <tr>
+              <th class="text-center-title">사업장주소</th>
+              <td>대전 유성구 테크노1로 75</td>
+              <th class="text-center-title">상세주소</th>
+              <td>412호</td>
+            </tr>
+            <tr>
+              <th class="text-center-title">사업장전화번호</th>
+              <td>042-826-8400</td>
+              <th class="text-center-title">FAX</th>
+              <td>042-826-1008</td>
+            </tr>
+            <tr>
+              <th class="text-center-title">업태</th>
+              <td>도소매업</td>
+              <th class="text-center-title">업종</th>
+              <td>통신기계기구 또는 이에 관련한 <br>기계기구제조업</td>
+            </tr>
+            <tr>
+              <th class="text-center-title">진행상태</th>
+              <td colspan="3">
+                <button class="outline-blue-btn" type="button">제출완료</button>
+              </td>
+            </tr>
+          </table>
+            </div>
+          <!-- <img src="img/line.svg" alt="빗금" style="margin:  20px 0;" /> -->
+          <div class="line-img"></div>
+          <div class="s-r-btn" style="margin-top: 0; margin-bottom: 70px;">
+            <button class="playbtn modibtn">수정하기</button>
+            <button class="playbtn printbtn">출력하기</button>
+          </div>
+          <div class="grade" style="margin-top: 100px; margin-bottom: 40px;">
+            <div class="scope">
+              <form action="" method="get" name="evaluation">
+                <p>보다 나은 서비스 제공을 위해 만족도 조사를 실시하고 있습니다. 이 페이지에서 제공하는 정보에 대하여 얼마나 만족하셨습니까?</p>
+                <div class="star-grade">
+                  <label class="container">매우만족
+                    <input class="a-agree" type="radio" name="grade">
+                    <span class="checkmark"></span>
+                  </label>
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/red-star.svg" alt="별" />
+                  <label class="container">만족
+                    <input class="a-agree" type="radio" name="grade">
+                    <span class="checkmark"></span>
+                  </label>
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/gray-star.svg" alt="별" />
+                  <label class="container">보통
+                    <input class="a-agree" type="radio" name="grade">
+                    <span class="checkmark"></span>
+                  </label>
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/gray-star.svg" alt="별" />
+                  <img src="img/gray-star.svg" alt="별" />
+                  <label class="container">불만
+                    <input class="a-agree" type="radio" name="grade">
+                    <span class="checkmark"></span>
+                  </label>
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/gray-star.svg" alt="별" />
+                  <img src="img/gray-star.svg" alt="별" />
+                  <img src="img/gray-star.svg" alt="별" />
+                  <label class="container">매우불만
+                    <input class="a-agree" type="radio" name="grade">
+                    <span class="checkmark"></span>
+                  </label>
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/gray-star.svg" alt="별" />
+                  <img src="img/gray-star.svg" alt="별" />
+                  <img src="img/gray-star.svg" alt="별" />
+                  <img src="img/gray-star.svg" alt="별" />
+                </div>
+                <div>
+                  <span>기타의견</span>
+                  <input type="text" />
+                  <button type="submit">제출</button>
+                </div>
+              </form>
+            </div>
+            <div class="charge">
+              <p style="color: #666666;">담당부서</p>
+              <p>소상공인종합콜센터</p>
+              <p style="color: #666666; margin-left: 20px;">전화번호</p>
+              <p>1833-3665</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="quickmenu">
+      <ul>
+        <li>
+          <a href="index.html">
+          <img src="img/scroll-home.svg" alt="home" />
+          <br />
+          <span>home</span>
+        </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);" class="scroll-top">
+          <img src="img/scroll-arrow-top.svg" alt="맨위로" />
+          <br />
+          <span>맨위로</span>
+        </a>
+        </li>
+        <li>
+          <a href="javascript:history.back();" class="scroll-back">
+          <img src="img/scroll-arrow-back.svg" alt="뒤로" />
+          <br />
+          <span>뒤로</span>
+        </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);" class="scroll-bottom">
+          <img src="img/scroll-arrow-bottom.svg" alt="맨아래" />
+          <br />
+          <span>맨아래</span>
+        </a>
+        </li>
+      </ul>
+    </div>
+    <div id="footer-t">
+      <div class="cen">
+        <a href="">개인처리정보처리방침</a>
+        <span style="margin: 0 15px;">/</span>
+        <a href="">이메일주소 무단수집거부</a>
+        <span style="margin: 0 15px;">/</span>
+        <a href="">이용안내</a>
+        <span style="margin: 0 15px;">/</span>
+        <a href="">사이트맵</a>
+      </div>
+    </div>
+    <div id="footer-m">
+      <div class="cen">
+        <div class="of-auto" id="footer-m-t">
+          <div class="float-left">
+            <span><b>ARS서비스 안내</b>이용시간:365일24시간 / 상담연결시간:평일09:00 ~ 18:00</span>
+          </div>
+          <div class="float-right">
+            <a href="">
+              <img src="img/facebook.svg" alt="페이스북" title="페이스북" />
+            </a>
+            <a href="">
+              <img src="img/blog.svg" alt="블로그" title="블로그" />
+            </a>
+            <a href="">
+              <img src="img/instargram.svg" alt="인스타그램" title="인스타그램" />
+            </a>
+            <a href="">
+              <img src="img/kakaostory.svg" alt="카카오 스토리" title="카카오 스토리" />
+            </a>
+          </div>
+        </div>
+        <div id="footer-m-b" class="of-auto">
+          <div class="float-left">
+            <span>부산시 소상공인 종합지원센터</span>
+            <span>대표전화 051-600-1700 (내선번호4)</span>
+            <span>부산 중구 자갈치해안로 52  7층</span>
+            <p>COPYRIGHT&copy; 2022 BUSANHOPECENTER. ALL RIGHTS RESERVED</p>
+          </div>
+          <div class="float-right">
+            <div>유관기관 및 관련사이트</div>
+          </div>
+        </div>
+        <div id="footer-link" style="margin: 20px 0;">
+          <a href=""><img src="img/footer_logo_1.svg" alt="부산광역시" /></a>
+          <a href=""><img src="img/footer_logo_2.svg" alt="부산신용보증재단" /></a>
+          <a href=""><img src="img/footer_logo_3.svg" alt="신용보증재단중앙회" /></a>
+          <a href=""><img src="img/footer_logo_4.svg" alt="소상공인시장진흥공단" /></a>
+          <a href=""><img src="img/footer_logo_5.svg" alt="부산경제진흥원" /></a>
+          <a href=""><img src="img/footer_logo_6.svg" alt="부산디자인센터" /></a>
+        </div>
+        
+      </div>
+    </div>
+    <div id="footer-b">
+      <div class="cen">
+        <p style="color:#fff;">부산시 함께웃는 소상공인</p>
+        <p style="color:#fff;">Busan Economy's Best Partner.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

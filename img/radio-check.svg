@@ -1,0 +1,11 @@
+<svg id="icon_체크_check-circle-filled" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="check-circle-filled_Background_" data-name="check-circle-filled (Background)" width="20" height="20" fill="none"/>
+  <path id="check-circle-filled" d="M10,20A10,10,0,1,1,20,10,10.011,10.011,0,0,1,10,20ZM6.009,9.286h0L5,10.3l3.571,3.572L15,7.44,13.99,6.429,8.571,11.847,6.009,9.286Z" fill="#1a72c9"/>
+  <g id="원형_기본" opacity="0">
+    <rect id="check-circle-filled_Background_2" data-name="check-circle-filled (Background)" width="20" height="20" fill="none"/>
+    <g id="타원_10" data-name="타원 10" fill="none" stroke="#777" stroke-width="1">
+      <circle cx="10" cy="10" r="10" stroke="none"/>
+      <circle cx="10" cy="10" r="9.5" fill="none"/>
+    </g>
+  </g>
+</svg>

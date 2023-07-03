@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>부산광역시 소상공인종합지원센터</title>
+  <link href="css/base.css" rel="stylesheet" />
+  <link href="css/common.css" rel="stylesheet" />
+  <link href="css/sub.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+
+  <header style="position: relative;">
+
+    <nav id="gnb">
+      <div class="cen">
+        <a href="#">로그인</a>
+        <a href="#">회원가입</a>
+      </div>
+    </nav>
+    
+    <div id="logo_box" class="cen">
+      <!-- <div id="left_logo"></div>
+      <div id="center_logo">
+        <h1>
+          <img src="img/logo.svg" alt="로고" />
+        </h1>
+      </div>
+      <div id="space"></div> -->
+      <h1>
+        <a href="index.html">
+          <img src="img/logo.svg" alt="로고" />
+          <img src="img/logo_text.svg" alt="로고" />
+        </a>
+      </h1>
+    </div>
+
+    <nav id="lnb">
+      <div class="cen">
+        <ul class="text-center">
+          <li class="main">
+            <a href="#">사업소개</a>
+            <div class="sub">
+              <div class="sub_panel">
+                <ul class="sub_list">
+                  <li>
+                    <strong class="sub_list_title">경영지원</strong>
+                    <ul>
+                      <li><a href="#">소상공인 행복복지지원</a></li>
+                      <li><a href="#">소상공인 법률서비스</a></li>
+                      <li><a href="#">영세소상공인 고용산재 보험료 지원</a></li>
+                      <li><a href="#">사업정리 도우미</a></li>
+                      <li><a href="#">경영전략 컨설팅</a></li>
+                      <li><a href="#">소상공인 통합교육</a></li>
+                      <li><a href="#">장기안심상가 홍보</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong class="sub_list_title">유망소상공인육성</strong>
+                    <ul>
+                      <li><a href="#">유망업종특화마케팅 지원</a></li>
+                      <li><a href="#">브랜드 및 지식서비스 품질 개선</a></li>
+                      <li><a href="#">스타소상공인 발굴 빛 육성</a></li>
+                      <li><a href="#">찾아가는 소상공인 해결사</a></li>
+                      <li><a href="#">신사업창업사관학교</a></li>
+                      <li><a href="#">골목상권 공동체 육성</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong class="sub_list_title">매출확대 지원</strong>
+                    <ul>
+                      <li><a href="#">공공배달앱 동백통 운영</a></li>
+                      <li><a href="#">제로페이 지원사업</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong class="sub_list_title">온라인 비즈니스 지원</strong>
+                    <ul>
+                      <li><a href="#">디지털 커머스 지원(소담스퀘어)</a></li>
+                      <li><a href="#">온라인 마케팅</a></li>
+                      <li><a href="#">판로확대</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <strong class="sub_list_title">기타 지원사원</strong>
+                    <ul>
+                      <li><a href="#">수제맥주 마스터지 챌린지</a></li>
+                      <li><a href="#">귀금속 소상공인 특화센터 운영</a></li>
+                    </ul>
+                  </li>
+                  <!-- <div class="float-left">
+                    <li>경영지원</li>
+                    <li><a href="#">소상공인 행복복지지원</a></li>
+                    <li><a href="#">소상공인 법률서비스</a></li>
+                    <li><a href="#">영세소상공인 고용산재 보험료 지원</a></li>
+                    <li><a href="#">사업정리 도우미</a></li>
+                    <li><a href="#">경영전략 컨설팅</a></li>
+                    <li><a href="#">소상공인 통합교육</a></li>
+                    <li><a href="#">장기안심상가 홍보</a></li>
+                  </div>
+                  <div class="float-left">
+                    <li>유망소상공인육성</li>
+                    <li><a href="#">유망업종특화마케팅 지원</a></li>
+                    <li><a href="#">브랜드 및 지식서비스 품질 개선</a></li>
+                    <li><a href="#">스타소상공인 발굴 빛 육성</a></li>
+                    <li><a href="#">찾아가는 소상공인 해결사</a></li>
+                    <li><a href="#">신사업창업사관학교</a></li>
+                    <li><a href="#">골목상권 공동체 육성</a></li>
+                  </div>
+                  <div class="float-left">
+                    <li>매출확대 지원</li>
+                    <li><a href="#">공공배달앱 동백통 운영</a></li>
+                    <li><a href="#">제로페이 지원사업</a></li>
+                  </div>
+                  <div class="float-left">
+                    <li>온라인 비즈니스 지원</li>
+                    <li><a href="#">디지털 커머스 지원(소담스퀘어)</a></li>
+                    <li><a href="#">온라인 마케팅</a></li>
+                    <li><a href="#">판로확대</a></li>
+                  </div>
+                  <div class="float-left">
+                    <li>기타 지원사원</li>
+                    <li><a href="#">수제맥주 마스터지 챌린지</a></li>
+                    <li><a href="#">귀금속 소상공인 특화센터 운영</a></li>
+                  </div>  -->
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="main">
+            <a href="#">사업신청</a>
+            <div class="sub">
+              <ul>
+                
+              </ul>
+            </div>
+          </li>
+          <li class="main">
+            <a href="#">법률상담</a>
+            <div class="sub">
+              <ul>
+                
+              </ul>
+            </div>
+          </li>
+          <li class="main">
+            <a href="#">알림마당</a>
+            <div class="sub">
+              <ul>
+                
+              </ul>
+            </div>
+          </li>
+          <li class="main">
+            <a href="#">소통마당</a>
+            <div class="sub">
+              <ul>
+                
+              </ul>
+            </div>
+          </li>
+          <li class="main">
+            <a href="#">센터소개</a>
+            <div class="sub">
+              <ul>
+                
+              </ul>
+            </div>
+          </li>
+          <!-- <div class="float-right">
+            <div class="float-left" style="padding: 8px 0;">
+              <input class="search-input" type="text" placeholder="검색어를 입력하세요">
+              <div style="position:relative;">
+                <button class="searchbtn"></button>
+              </div>
+            </div>
+            <div class="float-left" style="padding: 8px 0;">
+              <a href="#">
+                <img src="img/menu.svg" alt="메뉴" />
+              </a>
+            </div>
+          </div> -->
+        </ul>
+      </div>
+    </nav>
+    <div id="menuback"></div>
+  </header>
+
+  <section>
+    <div class="cen">
+      <div class="breadcrumb">
+        <p>
+          home 
+          <img src="img/breadcrumb.svg" alt="화살표" /> 
+          사업소개 
+          <img src="img/breadcrumb.svg" alt="화살표" /> 
+          <a href="#">유망 소상공인 육성</a> 
+          <img src="img/breadcrumb.svg" alt="화살표" /> 
+          <span>찾아가는 소상공인 해결사</span>
+        </p>
+      </div>
+      <div class="of-auto">
+        <div class="w-18">
+          <h2>사업소개</h2>
+          <nav id="left-menu">
+            <ul id="left-lnb">
+              <li class="left-main">
+                <a href="#" class="sub-d">경영지원</a>
+                <ul class="left-sub">
+                  <li>
+                    <a href="#">소상공인 행복복지지원</a>
+                  </li>
+                  <li>
+                    <a href="#">소상공인 법률서비스</a>
+                  </li>
+                  <li>
+                    <a href="#">영세소상공인 고용산재 보험료 지원</a>
+                  </li>
+                  <li>
+                    <a href="#">사업정리 도우미</a>
+                  </li>
+                  <li>
+                    <a href="#">경영전략 컨설팅</a>
+                  </li>
+                  <li>
+                    <a href="#">소상공인 통합교육</a>
+                  </li>
+                  <li>
+                    <a href="#">장기 안심상가 홍보</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="left-main-show">
+                <a href="#">유망 소상공인 육성</a>
+                <ul class="left-sub-show">
+                  <li>
+                    <a href="#">유망업종특화마케팅 지원</a>
+                  </li>
+                  <li>
+                    <a href="#">브랜드 및 지식서비스 품질</a>
+                  </li>
+                  <li>
+                    <a href="#">스타소상공인 발굴 및 육성</a>
+                  </li>
+                  <li>
+                    <a href="#" class="on">찾아가는 소상공인 해결사</a>
+                  </li>
+                  <li>
+                    <a href="#">신사업창업사관학교</a>
+                  </li>
+                  <li>
+                    <a href="#">골목상권 공동체 육성</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="left-main">
+                <a href="#" class="sub-d">매출확대 지원</a>
+                <ul class="left-sub">
+                  <li>
+                    <a href="#">공공배달앱 동백통 운영</a>
+                  </li>
+                  <li>
+                    <a href="#">제로페이 지원사업</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="left-main">
+                <a href="#" class="sub-d">온라인 비즈니스 지원</a>
+                <ul class="left-sub">
+                  <li>
+                    <a href="#">디지털 커머스 지원(소담스퀘어)</a>
+                  </li>
+                  <li>
+                    <a href="#">온라인 마케팅</a>
+                  </li>
+                  <li>
+                    <a href="#">판로확대</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="left-main">
+                <a href="#" class="sub-d">기타 지원사업</a>
+                <ul class="left-sub">
+                  <li>
+                    <a href="#">수제맥주 마스터지 챌린지</a>
+                  </li>
+                  <li>
+                    <a href="#">귀금속 소상공인 특화센터 운영</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="w-78">
+          <h2>소상공인 행복복지지원</h2>
+          <!-- <div class="comment">
+            <p>부산광역시와 부산경제진흥원에서는 급격하게 성장하고 있는 가정간편식(HMR) 시장에 대응하고 부산지역의 외식업 분야 산업육성을 위하여 배달의 민족과 함께「2022년 찾아가는소상공인 해결사」“HMR 제품화” 지원 사업을 추진하오니 관심 있는 소상공인 업체는 아래 지원 내용을 참고하시어 신청해주시기 바랍니다.</p>
+          </div> -->
+          <div class="comback-intro">
+            <div class="notification" style="background-color: #F57D20;">
+              <h5>찾아가는 소상공인 해결사</h5>
+              <img class="noti-img" src="img/orange-img_1.svg" alt="배경이미지" />
+              <img class="noti-img" src="img/orange-img_2.svg" alt="배경이미지" />
+              <img class="noti-img" src="img/orange-img_3.svg" alt="배경이미지" />
+              <img class="noti-img" src="img/orange-img_4.svg" alt="배경이미지" />
+            </div>
+            <div class="white-board">
+              <ul>
+                <li>· 가정간편식(HMR) 제작 지원</li>
+                <li>· 마케팅/컨설팅 지원</li>
+              </ul>
+              <hr/>
+              <div style="text-align: center; margin-top: 20px;">
+                <a href="">사업신청하기</a>
+              </div>
+            </div>
+          </div>
+          <div id="happy">
+            <p id="happy-title">찾아가는 소상공인 해결사</p>
+            <p id="happy-cont">부산 지역 소상공인의 건강검진 비용 지원을 통해 삶의 질 개선, 행복한 소상공인 여건을 지원하고자 합니다. </p>
+            <div class="matters">
+              <p class="matters-title">알아두실 사항</p>
+              <p class="matters-big">상담연결시간</p>
+              <ul>
+                <li>· 즉석조리식품 : 즉석밥, 냉동만두, 3분 짜장(레토르트), 간단하게 데워서 먹는 국 종류 등 </li>
+                <li>· 반조리 식품 : 밀키트 등</li>
+              </ul>
+              <p class="matters-small" style="font-size: 12px;">가정에서 간편하게 먹을 수 있는 1차 조리된 식품이다. 밖에서 사먹거나 직접 만들어 먹는 음식과 비교하여 맛과 향기와 신선도가 떨어지지 않는다.</p>
+            </div>
+            <div id="business-list">
+              <p class="business-title">사업개요</p>
+              <ul class="list-square">
+                <li>
+                  지원대상 : 가정간편식(HMR) 분야 사업을 하고 있거나 하고자 하는 소상공인
+                  <ul style="margin: 5px 0">
+                    <li>- ‘즉석판매제조가공업’ 또는 ‘식품제조가공업’에 등록된 부산지역 소상공인</li>
+                    <li>- ‘즉석판매제조가공업’ 또는 ‘식품제조가공업’을 준비 중인 부산지역 소상공인</li>
+                    <li>※ 지원제외 대상 : 지방세 체납 업체, 프랜차이즈 가맹점, 커피업종 및 반찬 판매 등 통상적인 음식 가정간편식(HMR) 분야가 아닌 경우 등</li>
+                  </ul>
+                </li>
+                <li>신청기간 : ’22. 6. 7.(화)~6. 21.(수) 18:00 까지 </li>
+                <li>지원규모 : 6개 업체</li>
+                <li>
+                  지원내용 : 전문가 컨설팅, HMR 제품화지원, 운영환경개선, 마케팅 등
+                  <ul style="margin: 5px 0">
+                    <li>※ 판매업 등록 비용, 부가세 및 식자재 비용, 지원 초과금은 소상공인 자부담</li>
+                    <li>※ HMR 제품 개발(컨설팅 진행 및 사진촬영)을 위해 제품 샘플을 요청할 수 있음</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p class="business-title">지원내용</p>
+              <table class="border-table-all">
+                <caption>지원 사항</caption>
+                <tr>
+                  <th class="text-center">항목</th>
+                  <th class="text-center">세부항목</th>
+                  <th class="text-center">세부내용</th>
+                  <th class="text-center">지원여부</th>
+                </tr>
+                <tr>
+                  <th rowspan="2" class="text-center-title">교육 및<br>컨설팅</th>
+                  <th class="text-center text-medium">집체교육</th>
+                  <td>
+                    <ul class="list-square">
+                      <li>선정된 소상공인 대상으로 전체 프로젝트 소개 및 HMR 교육 제공</li>
+                    </ul>
+                  </td>
+                  <td class="text-center">공통지원</td>
+                </tr>
+                <tr>
+                  <th class="text-center text-medium">맞춤형 컨설팅</th>
+                  <td>
+                    <ul class="list-square">
+                      <li>전문가가 직접 현장 방문을 통한 점포별 개별 멘토링 지원</li>
+                    </ul>
+                  </td>
+                  <td class="text-center">공통지원</td>
+                </tr>
+                <tr>
+                  <th colspan="2" class="text-center-title">운영환경개선</th>
+                  <td>
+                    <ul class="list-square">
+                      <li>HMR 시설 구축 및 관련 장비 구매 지원</li>
+                    </ul>
+                  </td>
+                  <td class="text-center">개별지원</td>
+                </tr>
+                <tr>
+                  <th rowspan="3" class="text-center-title">교육 및<br>컨설팅</th>
+                  <th class="text-center text-medium">패키지<br>디자인개발</th>
+                  <td>
+                    <ul class="list-square">
+                      <li>
+                        ▪ 패키지 디자인 개발(1종) 및 제작 지원
+                        <ul>
+                          <li>- 상품 패키지, 조리 설명서 등</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </td>
+                  <td class="text-center">공통지원</td>
+                </tr>
+                <tr>
+                  <th class="text-center text-medium">포장용기지원</th>
+                  <td>
+                    <ul class="list-square">
+                      <li>
+                        전용 포장 용기 구매 지원
+                        <ul>
+                          <li>- 포장용기, 진공봉투 등</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </td>
+                  <td class="text-center">공통지원</td>
+                </tr>
+                <tr>
+                  <th class="text-center text-medium">배송용품지원</th>
+                  <td>
+                    <ul class="list-square">
+                      <li>
+                        배송 관련 용품 구매 지원
+                        <ul>
+                          <li>  - 스티로폼 박스, 아이스팩, 에어캡 등</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </td>
+                  <td class="text-center">공통지원</td>
+                </tr>
+                <tr>
+                  <th rowspan="2" class="text-center-title">판로지원</th>
+                  <th rowspan="2" class="text-center text-medium">유통채널<br>입점지원</th>
+                  <td>
+                    <ul class="list-square">
+                      <li>
+                        온라인 유통 플랫폼 입점 지원
+                        <ul>
+                          <li>
+                            - 배달의민족 전국별미 입점 지원
+                            <br>
+                            (단, 입점 심사 과정 필요) 
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </td>
+                  <td class="text-center">공통지원</td>
+                </tr>
+                <tr>
+                  <td>
+                    <ul class="list-square">
+                      <li>오프라인 유통채널 입점 지원</li>
+                    </ul>
+                  </td>
+                  <td class="text-center">공통지원</td>
+                </tr>
+                <tr>
+                  <th rowspan="2" class="text-center-title">마케팅 지원</th>
+                  <th class="text-center text-medium">온/오프라인<br>마케팅</th>
+                  <td>
+                    <ul class="list-square">
+                      <li>온/오프라인 판매 촉진을 위한 제품 홍보 지원
+                      </li>
+                    </ul>
+                  </td>
+                  <td class="text-center">공통지원</td>
+                </tr>
+                <tr>
+                  <th class="text-center text-medium">다큐멘터리 참여</th>
+                  <td>
+                    <ul class="list-square">
+                      <li>지상파 다큐멘터리 방송 참여 지원</li>
+                    </ul>
+                  </td>
+                  <td class="text-center">공통지원</td>
+                </tr>
+              </table>
+              <p style="margin: 50px 0 10px 30px;">※ HMR 제작 지원항목(참고용)</p>
+              <div id="hrm-img">
+                <!-- <img src="img/hmr.svg" alt="HMR"/> -->
+              </div>
+            </div>
+            <div>
+              <p class="business-title">추진일정</p>
+              <div id="business-box-c">
+                <div class="businuss-arrow promotion-box">
+                  <div class="round-square">소상공인 모집공고<br>(5. 24. ~ 6. 21.)</div>
+                  <div class="round-square">소상공인 신청 ‧ 접수<br>(6. 7. ~ 6. 21.)</div>
+                  <div class="round-square">요건검토 및 서류 심사<br>(7월 중)</div>
+                  <div class="round-square">선정심의 위원회(7월 중)<br>(현장평가 등)</div>
+                  <ul class="promotion-ul">
+                    <li>부산시 소상공인종합<br>지원센터 홈페이지</li>
+                    <li>부산시 소상공인종합<br>지원센터 홈페이지</li>
+                    <li>부산경제진흥원</li>
+                    <li>부산경제진흥원</li>
+                  </ul>
+                </div>
+              </div>
+              <div id="business-box-c" style="margin-top: 20px;">
+                <div class="businuss-arrow promotion-box">
+                  <div class="round-square">최종선정<br>(7월 중)</div>
+                  <div class="round-square">세부지원 수행<br>(7월~12월)</div>
+                  <div class="round-square">온 ‧ 오프라인 마케팅<br>(9~12월)</div>
+                  <div class="round-square">사후관리<br>(12월)</div>
+                  <ul class="promotion-ul">
+                    <li>1개 업종(6개사)</li>
+                    <li>HMR 전문가 및<br>소상공인</li>
+                    <li>부산경제진흥원</li>
+                    <li>부산경제진흥원</li>
+                  </ul>
+                </div>
+                <p style="text-align: center; margin-top: 40px;">※ HMR 제작 지원항목(참고용)</p>
+              </div>
+            </div>
+            <div>
+              <p class="business-title" style="margin-top: 50px;">신청접수 및 방법</p>
+              <ul class="list-square">
+                <li>접수기간 :  22. 6. 7.(화)~6. 21.(화) 18:00 까지 </li>
+                <li>지원대상 : HMR 분야 사업을 하고 있거나 하고자 하는 소상공인</li>
+              </ul>
+              <table class="border-table-all" style="margin-top: 30px; margin-bottom: 20px;">
+                <caption>신청서류</caption>
+                <tr>
+                  <th class="text-center">No</th>
+                  <th class="text-center"></th>
+                  <th class="text-center">신청서류</th>
+                  <th class="text-center">비고</th>
+                </tr>
+                <tr>
+                  <th class="text-center-title">1</th>
+                  <th class="text-center text-medium">필수서류</th>
+                  <td>참여신청서</td>
+                  <td>
+                    <ul class="list-square">
+                      <li>제1호 서식</li>
+                      <li>인터넷 접수페이지 직접 작성</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <th class="text-center-title">2</th>
+                  <th rowspan="5" class="text-center text-medium">필수서류</th>
+                  <td>개인정보 수집(이용)·제공 및 초상권 활용 동의서</td>
+                  <td>
+                    <ul class="list-square">
+                      <li>제2호 서식</li>
+                      <li>인터넷 접수페이지 직접 작성</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <th class="text-center-title">3</th>
+                  <td>세부추진계획서(계획서 및 점포사진)</td>
+                  <td>
+                    <ul class="list-square">
+                      <li>제3호 서식</li>
+                      <li>한글 파일 별도 작성 후 파일 등록</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <th class="text-center-title">4</th>
+                  <td>사업자등록증</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th class="text-center-title">5</th>
+                  <td>소상공인 확인서</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th class="text-center-title">6</th>
+                  <td>지방세 납세 증명원</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th class="text-center-title">7</th>
+                  <th rowspan="3" class="text-center text-medium">추가서류</th>
+                  <td>
+                    식품영업신고증
+                    <br>
+                    (즉석판매제조가공업, 식품제조업 등록증)
+                  </td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th class="text-center-title">8</th>
+                  <td>통신판매신고증</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th class="text-center-title">9</th>
+                  <td>식품위생교육 이수증</td>
+                  <td></td>
+                </tr>
+              </table>
+            </div>
+            
+            
+          </div>
+          <div class="s-r-btn">
+            <button class="playbtn sharebtn">공유하기</button>
+            <button class="playbtn printbtn">출력하기</button>
+          </div>
+          <div class="grade" style="margin-top: 100px; margin-bottom: 40px;">
+            <div class="scope">
+              <form action="" method="get" name="evaluation">
+                <p>보다 나은 서비스 제공을 위해 만족도 조사를 실시하고 있습니다. 이 페이지에서 제공하는 정보에 대하여 얼마나 만족하셨습니까?</p>
+                <div class="star-grade">
+                  <label class="container">매우만족
+                    <input class="a-agree" type="radio" name="agree">
+                    <span class="checkmark"></span>
+                  </label>
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/red-star.svg" alt="별" />
+                  <label class="container">만족
+                    <input class="a-agree" type="radio" name="agree">
+                    <span class="checkmark"></span>
+                  </label>
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/gray-star.svg" alt="별" />
+                  <label class="container">보통
+                    <input class="a-agree" type="radio" name="agree">
+                    <span class="checkmark"></span>
+                  </label>
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/gray-star.svg" alt="별" />
+                  <img src="img/gray-star.svg" alt="별" />
+                  <label class="container">불만
+                    <input class="a-agree" type="radio" name="agree">
+                    <span class="checkmark"></span>
+                  </label>
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/gray-star.svg" alt="별" />
+                  <img src="img/gray-star.svg" alt="별" />
+                  <img src="img/gray-star.svg" alt="별" />
+                  <label class="container">매우불만
+                    <input class="a-agree" type="radio" name="agree">
+                    <span class="checkmark"></span>
+                  </label>
+                  <img src="img/red-star.svg" alt="별" />
+                  <img src="img/gray-star.svg" alt="별" />
+                  <img src="img/gray-star.svg" alt="별" />
+                  <img src="img/gray-star.svg" alt="별" />
+                  <img src="img/gray-star.svg" alt="별" />
+                </div>
+                <div>
+                  <span>기타의견</span>
+                  <input type="text" />
+                  <button type="submit">제출</button>
+                </div>
+              </form>
+            </div>
+            <div class="charge">
+              <p style="color: #666666;">담당부서</p>
+              <p>소상공인종합콜센터</p>
+              <p style="color: #666666; margin-left: 20px;">전화번호</p>
+              <p>1833-3665</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="quickmenu">
+      <ul>
+        <li>
+          <a href="index.html">
+          <img src="img/scroll-home.svg" alt="home" />
+          <br />
+          <span>home</span>
+        </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);" class="scroll-top">
+          <img src="img/scroll-arrow-top.svg" alt="맨위로" />
+          <br />
+          <span>맨위로</span>
+        </a>
+        </li>
+        <li>
+          <a href="javascript:history.back();" class="scroll-back">
+          <img src="img/scroll-arrow-back.svg" alt="뒤로" />
+          <br />
+          <span>뒤로</span>
+        </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);" class="scroll-bottom">
+          <img src="img/scroll-arrow-bottom.svg" alt="맨아래" />
+          <br />
+          <span>맨아래</span>
+        </a>
+        </li>
+      </ul>
+    </div>
+    <div id="footer-t">
+      <div class="cen">
+        <a href="">개인처리정보처리방침</a>
+        <span style="margin: 0 15px;">/</span>
+        <a href="">이메일주소 무단수집거부</a>
+        <span style="margin: 0 15px;">/</span>
+        <a href="">이용안내</a>
+        <span style="margin: 0 15px;">/</span>
+        <a href="">사이트맵</a>
+      </div>
+    </div>
+    <div id="footer-m">
+      <div class="cen">
+        <div class="of-auto" id="footer-m-t">
+          <div class="float-left">
+            <span><b>ARS서비스 안내</b>이용시간:365일24시간 / 상담연결시간:평일09:00 ~ 18:00</span>
+          </div>
+          <div class="float-right">
+            <a href="">
+              <img src="img/facebook.svg" alt="페이스북" title="페이스북" />
+            </a>
+            <a href="">
+              <img src="img/blog.svg" alt="블로그" title="블로그" />
+            </a>
+            <a href="">
+              <img src="img/instargram.svg" alt="인스타그램" title="인스타그램" />
+            </a>
+            <a href="">
+              <img src="img/kakaostory.svg" alt="카카오 스토리" title="카카오 스토리" />
+            </a>
+          </div>
+        </div>
+        <div id="footer-m-b" class="of-auto">
+          <div class="float-left">
+            <span>부산시 소상공인 종합지원센터</span>
+            <span>대표전화 051-600-1700 (내선번호4)</span>
+            <span>부산 중구 자갈치해안로 52  7층</span>
+            <p>COPYRIGHT&copy; 2022 BUSANHOPECENTER. ALL RIGHTS RESERVED</p>
+          </div>
+          <div class="float-right">
+            <div>유관기관 및 관련사이트</div>
+          </div>
+        </div>
+        <div id="footer-link" style="margin: 20px 0;">
+          <a href=""><img src="img/footer_logo_1.svg" alt="부산광역시" /></a>
+          <a href=""><img src="img/footer_logo_2.svg" alt="부산신용보증재단" /></a>
+          <a href=""><img src="img/footer_logo_3.svg" alt="신용보증재단중앙회" /></a>
+          <a href=""><img src="img/footer_logo_4.svg" alt="소상공인시장진흥공단" /></a>
+          <a href=""><img src="img/footer_logo_5.svg" alt="부산경제진흥원" /></a>
+          <a href=""><img src="img/footer_logo_6.svg" alt="부산디자인센터" /></a>
+        </div>
+        
+      </div>
+    </div>
+    <div id="footer-b">
+      <div class="cen">
+        <p style="color:#fff;">부산시 함께웃는 소상공인</p>
+        <p style="color:#fff;">Busan Economy's Best Partner.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

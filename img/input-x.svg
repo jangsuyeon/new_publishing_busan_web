@@ -1,0 +1,5 @@
+<svg id="icon_login_x" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <circle id="타원_71" data-name="타원 71" cx="8" cy="8" r="8" transform="translate(2 2)" fill="#999"/>
+  <path id="패스_3" data-name="패스 3" d="M12.9,5.8l-.8-.8L8.951,8.155,5.8,5,5,5.8,8.155,8.951,5,12.106l.8.8L8.951,9.747,12.106,12.9l.8-.8L9.747,8.951Z" transform="translate(1.049 1.049)" fill="#fff"/>
+  <path id="패스_4" data-name="패스 4" d="M0,0H20V20H0Z" fill="none"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="341.667" height="285" viewBox="0 0 341.667 285">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.047" y1="0.708" x2="-0.063" y2="0.737" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path id="교차_2" data-name="교차 2" d="M-628.88,22479.32v-167.482c76.625,0,142.094-48.551,167.266-116.518h173.3c-28.347,156.656-162.526,277-325.564,284Z" transform="translate(629.38 -22194.82)" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" opacity="0.1" fill="url(#linear-gradient)"/>
+</svg>

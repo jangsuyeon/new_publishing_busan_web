@@ -1,0 +1,9 @@
+<svg id="구성_요소_110_15" data-name="구성 요소 110 – 15" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <rect id="사각형_3545" data-name="사각형 3545" width="32" height="32" fill="none"/>
+  <g id="화살표3" transform="translate(12 12)">
+    <g id="그룹_6517" data-name="그룹 6517" transform="translate(8 7) rotate(180)">
+      <rect id="사각형_3528" data-name="사각형 3528" width="8" height="7" fill="none"/>
+      <path id="패스_3310" data-name="패스 3310" d="M0,4.948H8L4.01,0Z" transform="translate(0 1.252)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

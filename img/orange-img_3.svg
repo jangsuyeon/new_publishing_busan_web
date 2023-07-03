@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="186" height="226" viewBox="0 0 186 226">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_3585" data-name="사각형 3585" width="186" height="226" transform="translate(-82 114)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1.381" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f57d20"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="마스크_그룹_18" data-name="마스크 그룹 18" transform="translate(82 -114)" clip-path="url(#clip-path)">
+    <g id="구성_요소_13_3" data-name="구성 요소 13 – 3" transform="translate(152 -541.883) rotate(90)" opacity="0.3">
+      <path id="패스_220" data-name="패스 220" d="M752.483,0C680.313,0,616.132,34.2,574.851,87.1,533.552,34.2,469.372,0,397.236,0,272.912,0,171.778,101.133,171.778,225.458H281.089a116.139,116.139,0,1,1,232.277,0H636.352a116.139,116.139,0,1,1,232.279,0h109.31C977.941,101.133,876.774,0,752.483,0" transform="translate(-171.778 0)" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+    </g>
+  </g>
+</svg>

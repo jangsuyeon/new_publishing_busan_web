@@ -1,0 +1,7 @@
+<svg id="구성_요소_48_6" data-name="구성 요소 48 – 6" xmlns="http://www.w3.org/2000/svg" width="38" height="18" viewBox="0 0 38 18">
+  <g id="사각형_3468" data-name="사각형 3468" fill="#fff" stroke="#ec6500" stroke-width="1">
+    <rect width="38" height="18" rx="9" stroke="none"/>
+    <rect x="0.5" y="0.5" width="37" height="17" rx="8.5" fill="none"/>
+  </g>
+  <text id="안내" transform="translate(8 14)" fill="#ec6500" font-size="12" font-family="MalgunGothic, Malgun Gothic" letter-spacing="-0.025em"><tspan x="0" y="0">안내</tspan></text>
+</svg>

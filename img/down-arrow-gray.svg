@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="chevron-right" transform="translate(16) rotate(90)">
+    <path id="矩形" d="M16,0V16H0V0Z" transform="translate(0 16) rotate(-90)" fill="none" opacity="0.6"/>
+    <path id="路径-4_Stroke_" data-name="路径-4 (Stroke)" d="M.919,0,4.46,3.54,8,0l.919.919L4.46,5.379,0,.919Z" transform="translate(5.54 12.46) rotate(-90)" fill="rgba(0,0,0,0.9)" opacity="0.4"/>
+  </g>
+</svg>

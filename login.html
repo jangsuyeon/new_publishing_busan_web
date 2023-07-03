@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>로그인</title>
+  <link href="css/base.css" rel="stylesheet" />
+  <link href="css/common.css" rel="stylesheet" />
+  <link href="css/login.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+  <header>
+    <div id="logo_box_d" class="login-cen">
+      <h1>
+        <a href="index.html">
+          <img src="img/logo.svg" alt="로고" />
+          <img src="img/logo_text.svg" alt="로고" />
+        </a>
+      </h1>
+      <a class="index-home" href="#">
+        <span class="hide-1180">홈으로 돌아가기</span>
+      </a>
+    </div>
+  </header>
+  <section class="login-cen">
+    <!-- input에 엑스, 체크, 지우기 이벤트 넣기 -->
+    <div class="sec-top">
+      <p class="login-title">로그인</p>
+      <p class="login-comment">부산시소상공인 종합지원센터에 오신것을 환영합니다. </p>
+    </div>
+    <div class="sec-cont">
+      <div id="login-box">
+        <input class="login-input" id="id" type="text" placeholder="아이디" />
+        <input class="login-input" id="password" type="password" placeholder="비밀번호" />
+      </div>
+      <p id="alarm">계정 비밀번호를 입력해 주세요.(영문자/숫자/특수문자)</p>
+      <p id="warning" class="text-red">
+        아이디 또는 비밀번호가 일치하지 않습니다.
+        <br>
+        입력하신 내용을 다시 확인해주세요.
+      </p>
+      <button id="login-btn" type="button">로그인</button>
+    </div>
+    <div class="sec-bottom">
+      <a href="">비밀번호 찾기</a>
+      <span>ㅣ</span>
+      <a href="">아이디찾기</a>
+      <span>ㅣ</span>
+      <a href="">회원가입</a>
+    </div>
+    <div id="easy-login">
+      <a href="" class="easy-login-a" id="kakao-login">
+        <img src="img/login-kakao.svg" alt="카카오 로그인" />
+      </a>
+      <a href="" class="easy-login-a" id="naver-login">
+        <img src="img/login-naver.svg" alt="네이버 로그인" />
+      </a>
+    </div>
+  </section>
+  <footer id="login_footer">
+    <div class="login-cen" style="text-align: center; color: #666;">
+      <a href="">이용안내</a>
+      <span>ㅣ</span>
+      <a href="">개인정보처리방침</a>
+      <span>ㅣ</span>
+      <a href="">이메일 무단수집거부</a>
+      <span>ㅣ</span>
+      <a href="">고객센터</a>
+      <p style="margin-top: 10px;">
+        Copyright &copy; Busanhopecenter. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    $("#id, #password").focusin(function(){
+      $("#password").css({
+        marginTop: "0px"
+      });
+      $(this).css({
+        border: "2px solid #1A72C9"
+      });
+    });
+    $("#id, #password").focusout(function(){
+      $("#password").css({
+        marginTop: "-1px"
+      });
+      $(this).css({
+        border: "1px solid #E6E6E6"
+      });
+    });
+  </script>
+
+</body>
+</html>

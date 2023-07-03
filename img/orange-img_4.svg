@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="307" height="90" viewBox="0 0 307 90">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.612" x2="0.244" y2="0.597" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f57d20"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="사각형_3583" data-name="사각형 3583" width="307" height="90" transform="translate(-131 86)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="사각형_3582" data-name="사각형 3582" width="267.796" height="280.708" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="마스크_그룹_16" data-name="마스크 그룹 16" transform="translate(176 176) rotate(180)" clip-path="url(#clip-path)">
+    <g id="그룹_6608" data-name="그룹 6608" transform="translate(-124.923 -223.07)" opacity="0.4">
+      <g id="그룹_6607" data-name="그룹 6607" transform="translate(33.075 125.357)" opacity="0.3" clip-path="url(#clip-path-2)" style="mix-blend-mode: color-dodge;isolation: isolate">
+        <path id="패스_3328" data-name="패스 3328" d="M133.867,280.708c73.864,0,133.928-62.982,133.928-140.354S207.731,0,133.867,0C60.1,0,0,62.974,0,140.354S60.1,280.708,133.867,280.708m0-195.787c29.2,0,52.923,24.87,52.923,55.433s-23.722,55.425-52.923,55.425c-29.132,0-52.824-24.87-52.824-55.425s23.692-55.433,52.824-55.433" transform="translate(0 -0.001)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

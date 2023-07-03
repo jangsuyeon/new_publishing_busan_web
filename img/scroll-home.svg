@@ -1,0 +1,4 @@
+<svg id="home" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="home_Background_" data-name="home (Background)" width="24" height="24" fill="none"/>
+  <path id="home-2" data-name="home" d="M16.281,19.5h-12a1.5,1.5,0,0,1-1.5-1.5V9.311l-1.72,1.72L0,9.969,9.75.22a.75.75,0,0,1,1.061,0l9.75,9.75L19.5,11.031l-1.719-1.72V18A1.5,1.5,0,0,1,16.281,19.5Zm-6-17.69h0l-6,6V18h12V7.811l-6-6Zm3,13.94h-6v-1.5h6v1.5Z" transform="translate(1.72 2.25)" fill="rgba(255,255,255,0.9)"/>
+</svg>
